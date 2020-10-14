@@ -17,7 +17,7 @@ export default class App extends Component {
       q: term, 
       part: "snippet", 
       type: "video", 
-      maxResults: 5
+      maxResults: 6
     };
     
     searchYouTube(process.env.REACT_APP_GOOGLE_API_KEY, options)
